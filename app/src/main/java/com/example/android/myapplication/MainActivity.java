@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 final TextView textview2 = (TextView) findViewById(R.id.textView2);
                 textview.setText(getString(R.string.title));
                 textview2.setText(getString(R.string.bottom));
+                button.setEnabled(false);
             }
     });
 }
